@@ -19,8 +19,8 @@ th.set_metadata('id', 'Zuhaib')
 messages = [{
     "role": "user",
     "content":
-        "Generate FizzBuzz code."
-        "Execute it to show me the results up to 10."
+        #"Delete all memory stored with my ID including events and email"
+        "Show me what memories are associated with my ID"
 }]
 
 response = client.chat.completions.create(
